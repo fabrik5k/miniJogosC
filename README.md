@@ -2,6 +2,7 @@
 Esse projeto do minigame em C, foi feito para a avaliação da matéria "Laboratório de programação em C"  do Cesupa - Centro Universitário do Estado do Pará
 
 Alunos: Fábio Gabriel Barros Oliveira, João Matheus Pessoa, Jefferson Figueiredo Dantas.
+
 O projeto conta com a presença de 2 minijogos, sendo o 1° jogo, Perguntas e Respostas, e o 2° Cobra na caixa
 
 1° Perguntas e respostas:
