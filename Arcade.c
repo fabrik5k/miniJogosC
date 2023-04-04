@@ -125,8 +125,8 @@ void main() {
 					printf("\n-entraram em uma grande sala com escrituras na parede. Enquanto inspecionavam as");
 					printf("\n-escrituras, eles acidentalmente pressionaram um botao escondido que lacrou as");
 					printf("\n-portas, prendendo-os la dentro. Entao, cinco caixas apareceram no centro da sala, uma");
-					printf("\n-delas contendo o botão para abrir as portas, mas uma delas contém uma cobra mortal!");
-					printf("\n-%s e %s decidem jogar turnos para abrir uma caixa de cada vez, na esperança de não", nome1, nome2);
+					printf("\n-delas contendo o botao para abrir as portas, mas uma delas contem uma cobra mortal!");
+					printf("\n-%s e %s decidem jogar turnos para abrir uma caixa de cada vez, na esperanca de nao", nome1, nome2);
 					printf("\n-Encontrar a cobra\n");
 					
 					
@@ -152,18 +152,18 @@ void main() {
 								printf("[%d]\t", i+1);
 							}
 						}
-						
-						//Condição que verifica se o jogador escolheu a caixa com a cobra, se sim entao game over, se não a caixa vai ser excluida e a rodada segue
 						printf("\n\nCaixa escolhida: ");
 						scanf("%d", &escolhaDoJogador);
+						
+						//Condi�ao que verifica se o jogador escolheu a caixa com a cobra, se sim entao game over, se não a caixa vai ser excluida e a rodada segue
 						if(caixas[escolhaDoJogador-1] == 1){
 							printf("\n\n@@@@@@@@@@@     O jogador %s foi mordido pela cobra e acabou morto dentro da tumba do farao neebe     @@@@@@@@@@@", jogadorDaVez);
 							gameOver = true;
 						} else if(caixas[escolhaDoJogador-1] == 4) {
-							printf("\n\n@@@@@@@@@@@         O bota�o foi encontrado e ambos conseguiram escapar da tumba do faro neebe        @@@@@@@@@@@", jogadorDaVez);
+							printf("\n\n@@@@@@@@@@@         O botao foi encontrado e ambos conseguiram escapar da tumba do faro neebe         @@@@@@@@@@@", jogadorDaVez);
 							gameOver = true;
 						} else {
-							printf("\nA caixa [%d] est� VAZIA\n\n", escolhaDoJogador);
+							printf("A caixa [%d] esta VAZIA\n\n", escolhaDoJogador);
 							caixas[escolhaDoJogador-1] = 3;
 						}
 						
