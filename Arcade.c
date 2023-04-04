@@ -36,7 +36,7 @@ void main() {
 
 					//// PRIMEIRO JOGO //// 
 
-					int resposta[3];
+					int resposta[5];
 					printf("\nVoce escolheu jogar: \n\n");
 					printf("          ************************");
 					printf("\n          * PERGUNTE E RESPONDA! *\n");
@@ -66,16 +66,40 @@ void main() {
 					} else if(resposta[1]!=1) {
 						printf("- Respota errada,a respota correta era: Formula de Bhaskara\n\n\n");
 					}
-
+					
 					//pergunta 3
+					printf("3 - Qual o Poder de Luta do Freeza na sua 2 transformação?\?\n");
+					printf("\n1) 1.000.000");
+					printf("\n2) 500.000");
+					printf("\n3) \n->");
+					scanf("%i",&resposta[2]);
+					if(resposta[2]==1) {
+						printf("- Parabens, resposta correta!\n\n\n");
+					} else {
+						printf("- Respota errada,a respota correta era: 1.000.000 \n\n\n");
+					}
+					
+					//pergunta 4
+					printf("4 - Qual o nome do antigo Rei dos piratas\?\n");
+					printf("\n1) Gold Roger");
+					printf("\n2) Shanks");
+					printf("\n3) Gol D. Roger\n->");
+					scanf("%i",&resposta[3]);
+					if(resposta[3]==3) {
+						printf("- Parabens, resposta correta!\n\n\n");
+					} else {
+						printf("- Respota errada,a respota correta era: Gol D. Roger\n\n\n");
+					}
+
+					//pergunta 5
 					printf("Ultima pergunta: Quem foi FIBONACCI\?\n");
 					printf("\n1) Um pintor renascentista");
 					printf("\n2) Ator italiano");
 					printf("\n3) Um matematico\n->");
-					scanf("%i",&resposta[2]);
-					if(resposta[2]==3) {
+					scanf("%i",&resposta[4]);
+					if(resposta[4]==3) {
 						printf("- Parabens, resposta correta!\n\n\n");
-					} else if(resposta[2]!=3) {
+					} else if(resposta[4]!=3) {
 						printf("- Resposta incorreta, a resposta correta era:Um matematico\n\n\n");
 					}
 
