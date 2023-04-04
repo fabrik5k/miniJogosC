@@ -48,6 +48,7 @@ void main() {
 					printf("\n1) Washington District of Capital");
 					printf("\n2) Washington District of Columbia");
 					printf("\n3) Washington District of Court\n->");
+					printf("\n4) Washington District of Canada\n->");
 					scanf("%i",&resposta[0]);
 					if(resposta[0] ==2) {
 						printf("- Parabens, resposta correta!\n\n\n");
@@ -57,21 +58,23 @@ void main() {
 
 					//pergunta 2
 					printf("2 - Qual o nome da formula mais conhecida da equacao do segundo grau\?\n");
-					printf("\n1) Formula de Bhaskara");
-					printf("\n2) Formula de Euler");
-					printf("\n3) Formula de Heron\n->");
+					printf("\n1) Formula de Black-Scholes");
+					printf("\n2) Formula de Bhaskara");
+					printf("\n3) Formula de Euler");
+					printf("\n4) Formula de Heron\n->");
 					scanf("%i",&resposta[1]);
-					if(resposta[1]==1) {
+					if(resposta[1]==2) {
 						printf("- Parabens, resposta correta!\n\n\n");
 					} else if(resposta[1]!=1) {
 						printf("- Respota errada,a respota correta era: Formula de Bhaskara\n\n\n");
 					}
 					
 					//pergunta 3
-					printf("3 - Qual o Poder de Luta do Freeza na sua 2 transformação?\?\n");
+					printf("3 - Qual o Poder de Luta do Freeza na sua 2 transformaçao?\?\n");
 					printf("\n1) 1.000.000");
 					printf("\n2) 500.000");
-					printf("\n3) \n->");
+					printf("\n3) 500.000");
+					printf("\n4) 8.000 \n->");
 					scanf("%i",&resposta[2]);
 					if(resposta[2]==1) {
 						printf("- Parabens, resposta correta!\n\n\n");
@@ -83,7 +86,8 @@ void main() {
 					printf("4 - Qual o nome do antigo Rei dos piratas\?\n");
 					printf("\n1) Gold Roger");
 					printf("\n2) Shanks");
-					printf("\n3) Gol D. Roger\n->");
+					printf("\n3) Gol D. Roger");
+					printf("\n4) Albert Einstein\n->");
 					scanf("%i",&resposta[3]);
 					if(resposta[3]==3) {
 						printf("- Parabens, resposta correta!\n\n\n");
@@ -95,11 +99,12 @@ void main() {
 					printf("Ultima pergunta: Quem foi FIBONACCI\?\n");
 					printf("\n1) Um pintor renascentista");
 					printf("\n2) Ator italiano");
-					printf("\n3) Um matematico\n->");
+					printf("\n3) Um cientista da computação\n->");
+					printf("\n4) Um matematico\n->");
 					scanf("%i",&resposta[4]);
-					if(resposta[4]==3) {
+					if(resposta[4]==4) {
 						printf("- Parabens, resposta correta!\n\n\n");
-					} else if(resposta[4]!=3) {
+					} else {
 						printf("- Resposta incorreta, a resposta correta era:Um matematico\n\n\n");
 					}
 
